@@ -18,8 +18,8 @@ public class ReticleTapReceiver : MonoBehaviour
         gameObject.SendMessage("OnPointerExit", SendMessageOptions.DontRequireReceiver);
 
         // 2) Volver NO-interactivo de inmediato.
-        SetInteractive(false);                     // desactiva colliders + cambia layer
-        HideRenderers(true);                       // opcional: oculto visualmente
+        //SetInteractive(false);                     // desactiva colliders + cambia layer
+       // HideRenderers(true);                       // opcional: oculto visualmente
 
         // 3) Destruir al final del frame (ya sin referencias activas).
         //StartCoroutine(DestroyEndOfFrame());
