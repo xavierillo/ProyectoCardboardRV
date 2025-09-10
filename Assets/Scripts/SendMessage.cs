@@ -19,4 +19,7 @@ public class SendMessage : MonoBehaviour
         Debug.Log ("<b>" + "Click" + "</b>");
     }
 
+ 
+
+
 }

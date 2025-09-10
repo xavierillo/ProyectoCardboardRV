@@ -44,7 +44,7 @@ public class GazeManager : MonoBehaviour
             AddValue(timeProggres);
         }
     }
-    public void SetUpGaze(float timeForSelection)
+    public void SetUpGaze(float timeForSelection) 
     {
         this.timeForSelection = timeForSelection;
     }
@@ -63,7 +63,7 @@ public class GazeManager : MonoBehaviour
         timeCounter = 0;
     }
 
-    private void AddValue(float val)
+    private void AddValue(float val) 
     {
         timeCounter = val;
         if (timeCounter >= timeForSelection)
@@ -75,7 +75,7 @@ public class GazeManager : MonoBehaviour
 
         fillIndicator.fillAmount = Normalise();
     }
-    private float Normalise()
+    private float Normalise() 
     {
         return (float)timeCounter / timeForSelection;
     }
