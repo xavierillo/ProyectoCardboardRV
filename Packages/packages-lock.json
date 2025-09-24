@@ -11,13 +11,6 @@
       },
       "hash": "fa5d716c95cd2519a422f24c3f212423cf569357"
     },
-    "com.unity.collab-proxy": {
-      "version": "2.9.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
       "depth": 1,
